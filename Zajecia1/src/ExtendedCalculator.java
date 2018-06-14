@@ -1,0 +1,3 @@
+interface ExtendedCalculator extends Calculator {
+
+}
