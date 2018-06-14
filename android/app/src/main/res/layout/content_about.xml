@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ABOUT">
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:text="Powrót"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textAbout"
+        android:layout_width="352dp"
+        android:layout_height="219dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:text="Hej! Jako, że tu jesteś, chciałeś, bądź chciałaś dowiedzieć się czegoś więcej o tej apce. Niestety rozczarujesz się. Ta apka nie robi zupełnie nic. Jej jedynym celem jest wyowłanie Twojego uśmiechu i naładowanie pozytywnymi myślami. Dlatego kliknij przycisk poniżej i wróć do przeglądania kolejnych myśli. Pozdrawiam - Apka :) "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+</RelativeLayout>
